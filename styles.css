@@ -1,0 +1,37 @@
+body{
+    background-color: aquamarine;
+}
+
+
+header{
+    border: 7px solid peru;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    background-color: gold;
+}
+
+.small{
+background-color: red;
+}
+
+.know{
+    background-color: brown;
+    display: inline-block;
+    width: 45%;
+}
+
+p{
+    color: black;
+}
+
+img {
+    width: 700px
+    ;
+}
+
+#top-image{
+    width: 1000px;
+}
+
