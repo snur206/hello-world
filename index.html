@@ -5,6 +5,10 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <script>
+    let userName = prompt ("Want to know about ice cream?");
+            document.write("You are at the right spot.")        
+        </script>
         <header>
             <h1>Best Ice Cream Flavors</h1>
             <nav>
@@ -13,6 +17,24 @@
             </nav>
         </header>
         <main>
+            <script>
+                let icAnswer = prompt("Are you a fan of ice cream?");
+                if (icAnswer == "yes"){
+                    document.write("Me too!!");
+                } else if (icAnswer == "no"){
+                    document.write("You are at the wrong spot.");
+                }
+    let guess = prompt("How many scoops of ice cream is perfect?");
+    if(guess == '3' ){
+        console.log("Great answer");
+    } else if (guess < 3){
+        console.log("hotter");
+     } else if (guess > 3){
+        console.log("Colder");
+     } else {
+        console.log("Do not know what that is?");
+     }
+            </script>
             <section>
                 <p>Ice cream is a popular desert, whether you are a child or an adult. But here are two flavors that are at the top.</p>
                 <img id="top-image"
@@ -21,7 +43,7 @@
                 <p></p>
             </section>
                 <article class="know">
-                    <img src="Chocolate.jpg"
+                    <img src="Chocolate.jpg">
                     Photo by <a href="https://unsplash.com/@picoftasty?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mae Mu</a> on <a href="https://unsplash.com/s/photos/ice-cream?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                     <p></p>
                     <h3>Chocolate</h3>
@@ -39,6 +61,7 @@
             </p>
     
         <footer>
+            <script>
             <p>&copy;Sharmarke and Yasmin</p>
         </footer>
     </body>    
