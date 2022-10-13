@@ -7,13 +7,24 @@ addTwoNumbers(6, 1);
 
 function greetUser(){
     let usersName = prompt ("What is your name?");
-    if(usersName == ""){
-        usersName = prompt ("What is your name again?");
-    }
-    document.write("Hello " + usersName + ", You are at the right spot."); 
+    // if(usersName == ""){
+    //   usersName = prompt ("What is your name again?");
+    // }
+    while (usersName == ""){
+        usersName = prompt("What was your name???")
+}
+    document.write("Hello " + usersName + ", Welcome to the spot."); 
 
 }
-greetUser()
+
+function guessFavic(){
+    let userGuess = prompt("Guess the my favorite flavor?");
+    while (userGuess !== "cookies and cream"){
+        userGuess = prompt("Nope! Keep guessing.");
+    }
+}
+
+
 
     function icfan(){
         let icAnswer = prompt("Are you a fan of ice cream?");
@@ -36,4 +47,12 @@ let guess = prompt("How many scoops of ice cream is perfect?");
      } else {
         console.log("Do not know what that is?");
      }
+    }
+
+    function rateMyPage(){
+        let rating = prompt("Rate my webpage from 1-5");
+
+        for (let i = 0; i < rating; i++){
+            document.write("<img class='cone-pic' src='cone.jpg' alt='pink ice cream cone' />");
+        }
     }
